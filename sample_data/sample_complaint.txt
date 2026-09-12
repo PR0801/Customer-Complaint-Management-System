@@ -1,0 +1,10 @@
+Customer: Meridian Healthcare Distribution
+Product: Paracetamol Tablets
+Strength: 500 mg
+Batch/Lot Number: PCM500-26A17
+Manufacturing Date: 12/03/2026
+Expiry Date: 11/03/2028
+Quantity Affected: 18 cartons
+Complaint Type: Tablet discoloration
+Complaint Date: 12/09/2026
+Description: The customer reports brown discoloration on tablets from several blister strips. No adverse event has been reported. The complaint is limited to the above batch and the customer has quarantined the affected stock. Please investigate possible moisture exposure, packaging integrity and manufacturing records.
