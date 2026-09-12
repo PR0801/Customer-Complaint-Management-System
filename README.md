@@ -95,10 +95,3 @@ FastAPI
 
 ## Current Groq model note
 The assignment names `gemma2-9b-it`. Groq currently lists that model in its deprecation documentation with an October 8, 2025 shutdown date, while its current production model list recommends models such as `llama-3.3-70b-versatile`. The app therefore keeps the assignment model configurable but automatically retries with `llama-3.3-70b-versatile` if the configured model is unavailable.
-
-## Important interview talking points
-- LLM output is constrained to a Pydantic schema before it reaches the form.
-- API credentials are backend-only.
-- The UI never trusts free-form model text as database structure.
-- Demo mode makes the app runnable for reviewers without exposing or hardcoding secrets.
-- Production hardening would add authentication/RBAC, audit trails, object storage, background jobs, OCR, migrations, and stricter GxP validation. The assignment says production-grade OCR/document parsing is not required.
